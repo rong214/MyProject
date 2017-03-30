@@ -45,6 +45,7 @@ public class UpFragment extends BaseFragment {
                 intent = new Intent("com.tyr.myproject.LOCAL_BROADCAST");
                 mBroadcastManager.sendBroadcast(intent);
                 System.exit(0);
+                System.out.print("");
             }
         });
     }
