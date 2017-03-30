@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tyr.myproject.MainActivity">
+    <include
+        layout="@layout/head_base"
+        android:visibility="gone"/>
+    <FrameLayout
+        android:id="@+id/frame_top_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_bottom">
+
+    </FrameLayout>
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <RadioButton
+            android:id="@+id/rb_bottom_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/BottomRadioButtonStyle"
+            android:text="@string/main_bottom_one"
+            android:drawableTop="@drawable/good_selector"/>
+        <RadioButton
+            android:id="@+id/rb_bottom_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/BottomRadioButtonStyle"
+            android:text="@string/main_bottom_two"
+            android:drawableTop="@drawable/learn_selector"/>
+        <RadioButton
+            android:id="@+id/rb_bottom_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/BottomRadioButtonStyle"
+            android:text="@string/main_bottom_three"
+            android:drawableTop="@drawable/day_selector"/>
+        <RadioButton
+            android:id="@+id/rb_bottom_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            style="@style/BottomRadioButtonStyle"
+            android:text="@string/main_bottom_four"
+            android:drawableTop="@drawable/up_selector"/>
+    </RadioGroup>
+</RelativeLayout>

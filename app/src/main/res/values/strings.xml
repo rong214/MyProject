@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_bottom_one">好好</string>
+    <string name="main_bottom_two">学习</string>
+    <string name="main_bottom_three">天天</string>
+    <string name="main_bottom_four">向上</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

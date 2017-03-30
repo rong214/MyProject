@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_base"
+    android:layout_width="match_parent"
+    tools:context="com.tyr.myproject.base.BaseActivity"
+    android:layout_height="40dp"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:text="标题"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:id="@+id/tv_base_title" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/back_white"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:src="@drawable/back_white"
+        android:id="@+id/iv_back"
+        android:padding="5dp"
+        android:contentDescription="@string/app_name" />
+</RelativeLayout>
