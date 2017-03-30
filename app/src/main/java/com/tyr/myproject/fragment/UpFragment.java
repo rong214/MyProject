@@ -6,6 +6,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.LocalBroadcastManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,7 @@ import com.tyr.myproject.R;
 import com.tyr.myproject.base.BaseFragment;
 import com.tyr.myproject.broadcast.MyLocalBroadCast;
 
+import static android.content.ContentValues.TAG;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 
 /**
@@ -45,7 +47,7 @@ public class UpFragment extends BaseFragment {
                 intent = new Intent("com.tyr.myproject.LOCAL_BROADCAST");
                 mBroadcastManager.sendBroadcast(intent);
                 System.exit(0);
-                
+                Log.d(TAG, "onClick: ");
             }
         });
     }

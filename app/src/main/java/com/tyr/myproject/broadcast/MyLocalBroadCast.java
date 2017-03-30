@@ -14,6 +14,6 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 public class MyLocalBroadCast extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        Toast.makeText(context, "本地广播", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(context, "本地广播", Toast.LENGTH_SHORT).show();
     }
 }
